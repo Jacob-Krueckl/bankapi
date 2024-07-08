@@ -2,8 +2,4 @@ module bankapi
 
 go 1.22.4
 
-require (
-    github.com/msft/bank v0.0.1
-)
-
-replace github.com/msft/bank => ../bankcore
+require github.com/Jacob-Krueckl/bankcore v0.0.0-20240708144143-09a67d58e7a8

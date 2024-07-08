@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/msft/bank"
+	"github.com/Jacob-Krueckl/bankcore/bank"
 )
 
 var accounts = map[float64]*bank.Account{}
